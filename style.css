@@ -1,0 +1,118 @@
+body{
+    font-family: tahoma, arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#principal{
+    width: 1024px;
+    margin: 20px auto;
+}
+.header-top{
+    height: 50px;
+    background-color: #162028;
+    position: relative;
+}
+.logo{
+    margin: 5px 0 0 160px;
+}
+.header-nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+.header-nav ul{
+    margin: 0;
+    padding: 0;
+}
+.header-nav li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 55px 0 0;
+    padding: 15px;
+
+}
+.header-nav a{
+    color: #425564;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+    transition: color 0.3s linear;
+}
+.header-nav a:hover{
+    color: white;
+}
+.article-01{
+    padding: 50px 100px;
+    text-align: center;
+}
+.article-01 h1{
+    font-size: 35px;
+    color: #252525;
+    text-transform: uppercase;
+}
+.article-01 p{
+    font-size: 17px;
+    line-height: 2;
+    color: #555;
+}
+.galeria{
+    color: #555;
+    padding: 0 100px 50px 100px;
+    overflow: auto;
+}
+.galeria-card{
+    width: 32%;
+    float: left;
+    text-align: center;
+}
+.galeria-titulo{
+    text-transform: uppercase;
+    font-size: 17px;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+.galeria-texto{
+    font-size: 15px;
+}
+.article-02{
+    background-color: #003d52;
+    padding: 100px;
+    text-align: left;
+    color: white;
+    background-image: url(imagens/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+.article-02 h2{
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: normal;
+    width: 90%;
+}
+.article-02 p{
+    line-height: 1.5;
+    width: 70%;
+}
+#call{
+    padding: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    font-style: normal;
+    font-size: 35px;
+    font-weight: bolder;
+    color: #003d52;
+}
+.rodape{
+    background: #00202b;
+    padding: 5px;
+    margin-top: 35px;
+}
+.rodape p{
+    color: #014d66;
+    text-align: center;
+    font-size: 12px;
+    padding: 5px;
+    letter-spacing: 2px;
+}
