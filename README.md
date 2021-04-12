@@ -1,2 +1,2 @@
 # Projeto_fashion
- Projeto 2 do curso de html e css na Udemy.
+ Projeto do curso de html e css na Udemy, para testar na pratica conhecimentos e tecnicas obtidas no curso.
